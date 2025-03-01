@@ -1,0 +1,48 @@
+body {
+  background-color: #F0E9D7;
+  color: #45201B;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* override text properties for titles */
+h1, h2, h3 {
+  font-family: 'Gloock', serif;
+  color: #A6321E;
+}
+
+/* add padding between sections */
+.intro, .about {
+  padding: 20px;
+}
+
+.intro {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left; /* overrides body text-align */ 
+}
+
+.nugget-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid #A6321E;
+}
+
+.intro-text h1 {
+  margin: 0;
+}
+
+.intro-text p {
+  text-align: left;
+  margin: 8px 0 0;
+}
+
+.about {
+  max-width: 500px;
+  margin: 0 auto; /* center given fixed widtdh */
+}
